@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #1C1D24;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .building {
+            position: relative;
+            width: 150%;
+            left: -100px;
+            z-index: 1;
+        }
+        .section-container {
+            display: flex; 
+            /* padding: 0 0 0 20px; */
+            position: relative;
+        }
+        .section-text {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 3;
+            padding: 20px;
+            width: 80%;
+        }
+        .section-text {
+            padding-top: 30px;
+        }
+        .section-text-container h2 {
+            width: 80%;
+        }
+        .black-cloud {
+            position: absolute;
+            z-index: 2;
+            top: 30px;
+            left: 0;
+            width: 115%;
+        }
+        
+        @media (min-width: 576px) {
+            .section-text {
+                width: 40%;
+                padding: 100px;
+            }
+            .building {
+                width: 150%;
+                left: -330px;
+                z-index: 1;
+            }
+            .section-text-container {
+                top: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="section-container">
+            <div class="section-text">
+                <div class="section-text-container" style="position: absolute; z-index: 4;">
+                    <h2 >Embreo Works with you to incubate your product ideas</h2>
+                    <p>With a background in conceptualizing and launching digital products, we want to help organizations digitize their business models to grow their revenues.</p>
+                </div>
+                <img class="black-cloud" src="./Wanna_Work_Clouds.png" alt="">
+            </div>
+            <img class="building" src="./Top_Building_Light.png" alt="" srcset="">
+        </div>
+        <div class="section-container">
+            <div class="section-text" >
+                <div class="section-text-container" style="position: absolute; z-index: 4;">
+                    <h2 >Partnership Models at Embreo</h2>
+                    <p>Whether as a business partner, client or referral partner, we believe the modern age requires a flexible approach to every business relationship. As such, we have multiple modes of work that caters to any time of business relationship.</p>
+                </div>
+                <img class="black-cloud" src="./Wanna_Work_Clouds.png" alt="">
+            </div>
+            <img class="building" style="top: -10px;" src="./Middle_First_Building_Light.png" alt="" srcset="">
+        </div>
+        <div class="section-container">
+            <div class="section-text" >
+                <div class="section-text-container" style="position: absolute; z-index: 4;">
+                    <h2 >Embreo Works with you to incubate your product ideas</h2>
+                    <p>With a background in conceptualizing and launching digital products, we want to help organizations digitize their business models to grow their revenues.</p>
+                </div>
+                <img class="black-cloud" src="./Wanna_Work_Clouds.png" alt="">
+            </div>
+            <img class="building" style="top: -20px;" src="./Middle_Second_Building_Light.png" alt="" srcset="">
+        </div>
+        <div class="section-container"> 
+            <div class="section-text" style="padding-top: 0px;" >
+                <div class="section-text-container" style="position: absolute; z-index: 4;">
+                    <h2 >So, Wanna work with Embreo?</h2>
+                    <p>Let's start your journey with us!</p>
+                </div>
+                <img style="top: -30px;" class="black-cloud" src="./Wanna_Work_Clouds.png" alt="">
+            </div>  
+            <img class="building" style="top: -40px;" src="./Bottom_Building_Light.png" alt="" srcset="">
+        </div>
+    </div>
+
+    <!-- <div class="top-building"></div> -->
+</body>
+</html>
